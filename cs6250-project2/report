@@ -1,0 +1,81 @@
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          inet addr:10.0.0.6  Bcast:10.255.255.255  Mask:255.0.0.0
+          inet6 addr: fe80::200:ff:fe00:6/64 Scope:Link
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2016-02-13 13:35 EST
+Nmap scan report for 10.0.0.2
+Host is up (0.00064s latency).
+PORT     STATE      SERVICE
+1080/tcp filtered   socks
+2000/tcp unfiltered cisco-sccp
+2001/tcp unfiltered dc
+2002/tcp unfiltered globe
+2003/tcp unfiltered finger
+2004/tcp unfiltered mailbox
+2999/tcp unfiltered unknown
+3000/tcp unfiltered ppp
+3001/tcp unfiltered nessus
+3002/tcp unfiltered exlm-agent
+MAC Address: 00:00:00:00:00:02 (Xerox)
+
+Nmap scan report for 10.0.0.3
+Host is up (0.00040s latency).
+PORT     STATE      SERVICE
+1080/tcp filtered   socks
+2000/tcp unfiltered cisco-sccp
+2001/tcp unfiltered dc
+2002/tcp unfiltered globe
+2003/tcp unfiltered finger
+2004/tcp unfiltered mailbox
+2999/tcp unfiltered unknown
+3000/tcp unfiltered ppp
+3001/tcp unfiltered nessus
+3002/tcp unfiltered exlm-agent
+MAC Address: 00:00:00:00:00:03 (Xerox)
+
+Nmap scan report for 10.0.0.4
+Host is up (0.00061s latency).
+PORT     STATE      SERVICE
+1080/tcp unfiltered socks
+2000/tcp unfiltered cisco-sccp
+2001/tcp unfiltered dc
+2002/tcp unfiltered globe
+2003/tcp unfiltered finger
+2004/tcp unfiltered mailbox
+2999/tcp unfiltered unknown
+3000/tcp unfiltered ppp
+3001/tcp unfiltered nessus
+3002/tcp unfiltered exlm-agent
+MAC Address: 00:00:00:00:00:04 (Xerox)
+
+Nmap scan report for 10.0.0.5
+Host is up (0.00062s latency).
+PORT     STATE      SERVICE
+1080/tcp unfiltered socks
+2000/tcp unfiltered cisco-sccp
+2001/tcp unfiltered dc
+2002/tcp unfiltered globe
+2003/tcp unfiltered finger
+2004/tcp unfiltered mailbox
+2999/tcp unfiltered unknown
+3000/tcp unfiltered ppp
+3001/tcp unfiltered nessus
+3002/tcp unfiltered exlm-agent
+MAC Address: 00:00:00:00:00:05 (Xerox)
+
+Nmap scan report for 10.0.0.6
+Host is up (0.000020s latency).
+PORT     STATE      SERVICE
+1080/tcp unfiltered socks
+2000/tcp unfiltered cisco-sccp
+2001/tcp unfiltered dc
+2002/tcp unfiltered globe
+2003/tcp unfiltered finger
+2004/tcp unfiltered mailbox
+2999/tcp unfiltered unknown
+3000/tcp unfiltered ppp
+3001/tcp unfiltered nessus
+3002/tcp unfiltered exlm-agent
+
+Nmap done: 6 IP addresses (5 hosts up) scanned in 2.70 seconds

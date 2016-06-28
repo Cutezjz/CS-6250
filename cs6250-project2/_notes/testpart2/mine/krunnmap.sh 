@@ -1,0 +1,18 @@
+##########################################################################
+# FILE: krunnmap.sh                                                      #
+# PATH: ~/cs6250-spring-2016/Project-2/_notes/testpart2/mine/krunnmap.sh #
+##########################################################################
+ 
+#!/bin/bash
+# Dep - Insure nmap is installed: sudo apt-get install nmap
+# Run from mininet hosts
+WDIR="/home/mininet/cs6250-spring-2016/Project-2/_notes/testpart2/mine/results"
+mkdir -p "${WDIR}" 2> /dev/null
+# cd "${WDIR}"
+NMAP_PROG=/usr/bin/nmap
+the_host=`grep eth /proc/net/dev|cut -d "-" -f1`
+outfile="${WDIR}/nmap_scap_from_`date +%Y%m%d_%H%M%S`_${the_host}.txt"
+echo "- creating $outfile"
+sudo ${NMAP_PROG} -p T:1080,2000-2004,2999-3002 -n -sA 10.0.0.1 10.0.0.2 10.0.0.3 10.0.0.4 10.0.0.5 10.0.0.6 10.0.0.7 -oG "${outfile}" > /dev/null 2>&1
+# ./kparsenmap.py -i "${outfile}" ## hashed out because i got permission error with this
+ 
